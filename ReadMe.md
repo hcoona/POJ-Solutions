@@ -1,5 +1,5 @@
 # POJ Solutions
 
-## 1001 --- A + B Problem
+## 1000 --- A + B Problem
 
 Nothing to say.
