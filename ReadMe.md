@@ -15,3 +15,9 @@ Click [here](http://poj.org/problem?id=1001) to see the question.
 Arbitrary precision arithmatic problem. The key point is to calculate the exponentiation by the equation shown below:
 
 ![R^{n}=\lbrace{}R\times{}R^{n-1},\when{}\text{$n$ is odd}\or{}R^{n/2}\times{}R^{n/2},\when{}\text{$n$ is even}](images/1001.png)
+
+## 1018 --- Communication Network
+
+Click [here](http://poj.org/problem?id=1018) to see the question.
+
+Enumerating all possible bandwidths and finding the lowest price for each bandwidth could simplify this question.
