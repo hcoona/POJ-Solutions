@@ -9,6 +9,8 @@ all : $(TARGETS)
 
 $(TARGETS) : % : %.o
 
+$(OBJECTS) : EntryPoint.h SolutionBase.h NonCopyable.h
+
 clean :
 	$(RM) *.o *~
 
