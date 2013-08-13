@@ -32,13 +32,15 @@ namespace POJ {
     int P1061::Solve(int x, int y, int m, int n, int L) const
     {
         int a = m - n, b = L, c = y - x;
-        int x0, y0, gcd;
-        tie(x0, y0, gcd) = Extended_GCD(a, b);
+        int x0, gcd;
+        tie(x0, ignore, gcd) = Extended_GCD(a, b);
         if (a && (c % gcd == 0)) {
             int scale = c / gcd;
             double t = -static_cast<double>(x0) * c / b;
             int x = x0 * scale + b / gcd * static_cast<int>(floor(t));
             return x < 0 ? (x + b / gcd) : x;
+        } else if (c % L == 0) {
+            return 0;
         } else {
             return INVALID;
         }
