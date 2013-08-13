@@ -1,5 +1,5 @@
 CC := g++
-CXXFLAGS += -Wall -O0 -g3 -std=gnu++11
+CXXFLAGS += -Wall -Wnarrowing -O0 -g3 -std=gnu++11
 TARGETS := P1000 P1018 P1061
 OBJECTS := $(TARGETS:=.o)
 
